@@ -31,7 +31,7 @@ function myfunction(){
 
 
     // Shifting background relative to the dialog boxes
-    var body = document.getElementById("b")
+    var body = document.getElementById("body")
     if(offset == 0){
         body.style.backgroundPositionX = 40+"%";
         offset=1;
